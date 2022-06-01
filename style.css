@@ -27,7 +27,6 @@ body {
 .cscardImg:hover{
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.541);
     overflow: hidden;
-    /* border-radius: 25px; */
 }
 .cscard:hover{
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.541);
@@ -38,8 +37,6 @@ body {
 .imgshadow{
     background-color:rgb(240, 238, 238);
     border-radius: 10px;
-    /* margin-top:5px; */
-
 }
 .fixer{
     margin-top: 5px;
@@ -51,9 +48,7 @@ body {
 .footer{
     background-color:#c90039c0 ;
     color:white;
-    font-weight: ;
     text-align: center;
-    /* font-size: 2rem; */
     padding:30px;
 }
 .about-text{
@@ -97,7 +92,22 @@ body {
 .cpink{
 	color: #EE0B4B;
 }
+.nav-r{
+	font-size:1.2em;
+	list-style-type: none;
+	color: #EE0B4B;
+	text-decoration: none;
 
+}
+.nav-r:hover {
+	list-style-type: none;
+	color: #EE0B4B;
+	text-decoration: underline;
+
+}
+a:visited {
+	text-decoration: none;
+  }
 @media only screen and (max-width: 600px) {
 	.main{
 		width: 80%;
