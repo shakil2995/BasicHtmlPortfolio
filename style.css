@@ -51,6 +51,7 @@ body {
     text-align: center;
     padding:30px;
 }
+
 .about-text{
 	width: 550px;
 }
@@ -116,5 +117,19 @@ a:visited {
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
+	}
+	.about{
+		width: 95%;
+		max-width: 100%;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.about-text{
+		width: 95%;
+		max-width: 100%;
+		margin: 0 auto;
+		align-items: center;
 	}
 }
