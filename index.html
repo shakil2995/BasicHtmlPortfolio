@@ -19,28 +19,28 @@
 </head>
 <body>
                                                                                           <!-- navbar -->
-    <div class="container">
+    <div class="container fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#000000">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="./icons/logo.jpg" alt="" width="40%" height="auto"></a>
+          <a class="navbar-brand" href="#index"><img src="./icons/logo.jpg" alt="" width="40%" height="auto"></a>
           <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="#index">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="aboutMe.html">About</a>
+                <a class="nav-link" href="#aboutMe">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="education.html">Academics</a>
+                <a class="nav-link" href="#education">Academics</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -48,8 +48,9 @@
       </nav>
       </div>
 <!--  Nav-bar end -->
-<br><br><br>
-<div class="container ">
+
+<div class="container vh" id="index">
+  <br><br><br>
   <div class="row">
     <div class="col-lg-6 animate__animated animate__bounceInLeft">
       <img class=" cscardImg" src="images/2.jpg" alt="" width="100%">
@@ -67,6 +68,122 @@
   </div>
   <br><br><br>
 </div>
+<!--  about me  -->
+<div class="container vh" id="aboutMe">
+  <br><br><br>
+  <div class="row">
+    <div class="d-flex justify-content-center align-items-center col-lg-6  animate__animated animate__bounceInRight" style="align-items: center; align-content: center;">
+      <div class="card-body">
+        <section class="about " id="about">
+          <div class="main">
+            <div class="about-text" style="color: white; font-size: 1.5em" >
+              <h1 style=" font-size:2em">About Me</h1>
+              <h3 style="font-size: 1.5em; color: #C90934;">Software <span >Engineer</span></h3>
+              <p>I am a Student of CSE, Currently studying at IUB.</p>
+              <p>I am very interested in web development.I have worked with MERN stack over the last six months.I have created some web apps using MERN stack. Click <a class="cpink nav-r"   href="projects.html">here</a> to see my projects.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="col-lg-6 animate__animated animate__bounceInLeft">
+      <img class="rounded-3" src="images/1.jpg" alt="" width="100%">
+    </div>
+
+  </div>
+  <br><br><br>
+</div>
+<!-- Acadenics -->
+
+<section class="vh container service education animate__animated animate__bounceInRight about" id="education">
+  <br><br><br><br><br><br><br><br><br>
+  <div class="main">
+<div class="gx-2 col-lg-6 cscard cscard2">
+  <div class="">
+  <div class="card-body">
+      <h1 class="card-title cpink">Academics</h1>
+          <div class="about-text">
+            <h5>Software <span>Engineer</span></h5>
+            <p>INSTITUTE : INDEPENDENT UNIVERSITY,BANGLADESH<br>
+              MAJOR : CSE <br>
+              MINOR : MIS <br>
+              SEMESTER : 12th <br>
+              CGPA : 3.29 out of 4.0
+            </p>
+          </div>
+        </div>   
+  </div>
+  </div>
+</div>
+</section>
+<!-- projects -->
+<div id="projects"></div>
+<div style="background-color: rgb(0, 0, 0); color: rgb(255, 253, 251);">
+  <br><br><br><br><br>
+
+<div class="container"><h1>My projects</h1></div>
+<br><br>
+<div class="container d-flex">
+    <div class="row gx-2 justify-content-between ">
+    <div class="gx-2 col-lg-3 cscard animate__animated animate__bounceInUp">
+    <div class="" style="">
+    <img class="card-img-top imgshadow" src="images/p1.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title cpink">To-Do App</h5>
+        <p class="card-text">A fully functional to-do app made with Js, express and lodash.Deployed to Heroku.</p>
+          <div><a href="https://todolist2995.herokuapp.com/" class="btn btn-primary animate__animated animate__pulse animate__infinite 	infinite">Visit Now</a></div>
+    </div>
+    </div>
+</div> 
+<div class="gx-2 col-lg-3 cscard animate__animated animate__bounceInUp">
+    <div class="" style="">
+    <img class="card-img-top imgshadow" src="images/p2.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title cpink">Weather App</h5>
+    <p class="card-text">This app was made using html , css and javascript. Its a live weather app</p>
+    <div><a href="https://shakil2995.netlify.app/apitest/api" class="btn btn-primary animate__animated animate__pulse animate__infinite 	infinite">Visit Now</a></div>
+    </div>
+</div>
+</div>
+  <div class="gx-2 col-lg-3 cscard animate__animated animate__bounceInUp">
+      <div class="" style="">
+      <img class="card-img-top imgshadow" src="images/p3.jpg" alt="Card image cap">
+      <div class="card-body">
+      <h5 class="card-title cpink">E-School</h5>
+      <p class="card-text">This is a static website , built using HTMl CSS and bootstrap</p>
+      <div><a href="https://shakil2995.github.io/E-School/" class="btn btn-primary animate__animated animate__pulse animate__infinite 	infinite">Visit Now</a></div>
+      </div>
+      </div>
+  </div>
+</div>
+</div>
+<br><br><br><br><br>
+</div>
+<!-- contact -->
+
+<section class="vh container service education animate__animated animate__bounceInRight about" id="contact">
+  <br><br><br><br><br><br><br><br><br>
+  <div class="main">
+<div class="gx-2 col-lg-6 cscard cscard2">
+  <div class="">
+  <div class="card-body">
+          <div class="about-text">
+            <h2 style="color: #C90934;">Contact Me</h2>
+            <h5>Software <span>Engineer</span></h5>
+            <p>
+              PHONE : +880 1521437960 <br>
+              EMAIL :Shakil2995@gmail.com> <br>
+              FACEBOOK : fb.com/Shakil <br>
+              ADDRESS : Uttara, Dhaka
+            </p>
+          </div>
+        </div>
+  </div>
+  </div>
+</div>
+</section>
+<!-- footer -->
+<br><br><br>
 <div class="footer">Copywrite @Shakil 2022</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>

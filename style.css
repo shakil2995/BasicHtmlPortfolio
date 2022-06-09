@@ -20,6 +20,7 @@ body {
     border-radius: 25px;
 }
 .cscardImg{
+	/* margin-left: 5px; */
     box-shadow: 0 0 10px rgba(238, 238, 238, 0.541);
     overflow: hidden;
     border-radius: 5px;
@@ -106,6 +107,16 @@ body {
 	text-decoration: underline;
 
 }
+.vh{
+	height: 100vh;
+	padding-top:50px;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+  }
 a:visited {
 	text-decoration: none;
   }
@@ -131,5 +142,9 @@ a:visited {
 		max-width: 100%;
 		margin: 0 auto;
 		align-items: center;
+	}
+	.vh{
+		height: 120vh;
+		padding-top:50px;
 	}
 }
